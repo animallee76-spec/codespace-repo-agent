@@ -1,0 +1,18 @@
+
+owner: ${GITHUB_OWNER:-your-username}
+
+# Alternative 1: explicit list
+# repos:
+#   - repo-one
+#   - repo-two
+
+# Alternative 2: patterns (default)
+include:
+  - name: "*"
+    archived: false
+exclude:
+  - name: "archive-*"
+
+tasks:
+  - standardize_repo
+  - sync_labels
