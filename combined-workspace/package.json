@@ -1,0 +1,19 @@
+{
+  "name": "combined-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/service-a",
+    "packages/service-b",
+    "packages/common-lib"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "ts-node": "^10.0.0"
+  }
+}

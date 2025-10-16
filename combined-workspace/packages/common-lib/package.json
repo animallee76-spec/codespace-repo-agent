@@ -1,0 +1,22 @@
+{
+  "name": "common-lib",
+  "version": "1.0.0",
+  "description": "A common library shared between Service A and Service B.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "common",
+    "library",
+    "shared"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "jest": "^26.0.0"
+  }
+}

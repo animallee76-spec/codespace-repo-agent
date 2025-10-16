@@ -1,0 +1,29 @@
+{
+  "name": "service-b",
+  "version": "1.0.0",
+  "description": "Service B is a part of the combined workspace that provides specific functionalities.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "common-lib": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "jest": "^26.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/combined-workspace.git"
+  },
+  "keywords": [
+    "service",
+    "workspace",
+    "node"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
