@@ -1,10 +1,10 @@
 
-owner: ${GITHUB_OWNER:-your-username}
+owner: $animallee76-spec
 
 # Alternative 1: explicit list
 # repos:
-#   - repo-one
-#   - repo-two
+#   - https://github.com/animallee76-spec/codex-superworkspace
+#   - https://github.com/animallee76-spec/project-lattice
 
 # Alternative 2: patterns (default)
 include:
